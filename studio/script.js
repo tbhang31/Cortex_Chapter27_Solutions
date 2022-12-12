@@ -23,6 +23,10 @@ window.addEventListener("load", function() {
                 count.innerHTML = `Astronaut Count: ${json.length}`
             }
         })
-
     })
+
+    const active = document.getElementById("active");
+    if (active.innerHTML == "true") {
+        active.style = "color: green";
+    }
 })
